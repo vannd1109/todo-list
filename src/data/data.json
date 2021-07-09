@@ -1,0 +1,149 @@
+{
+	"users" : [
+		{
+			"id" 			: 1,
+			"code"			: "NV020495",
+			"name"			: "Nguyễn Văn An",
+			"username"		: "admin",
+			"password"		: "123456",
+			"birthday"		: "02/04/1995",
+			"permission" 	: 1
+		},
+		{
+			"id" 			: 2,
+			"code"			: "NV021235",
+			"name"			: "Nguyễn Văn Tuấn",
+			"username"		: "user",
+			"password"		: "123456",
+			"birthday"		: "02/04/1997",
+			"permission" 	: 2
+		},
+		{
+			"id" 			: 3,
+			"code"			: "NV0001",
+			"name"			: "Nguyễn Tuấn Mạnh",
+			"username"		: "user1",
+			"password"		: "123456",
+			"birthday"		: "02/04/1999",
+			"permission" 	: 2
+		},
+		{
+			"id" 			: 4,
+			"code"			: "NV0002",
+			"name"			: "Trần Văn Trọng",
+			"username"		: "user2",
+			"password"		: "123456",
+			"birthday"		: "02/04/2000",
+			"permission" 	: 2
+		},
+		{
+			"id" 			: 5,
+			"code"			: "NV0003",
+			"name"			: "Nguyễn Thị Ngọc",
+			"username"		: "user3",
+			"password"		: "123456",
+			"birthday"		: "02/04/1994",
+			"permission" 	: 2
+		},
+		{
+			"id" 			: 6,
+			"code"			: "NV0004",
+			"name"			: "Lê Quốc Thái",
+			"username"		: "user4",
+			"password"		: "123456",
+			"birthday"		: "02/04/1987",
+			"permission" 	: 2
+		}
+	],
+	"customers" : [
+		{
+			"id" 			: 1,
+			"code"			: "KH0001",
+			"name"			: "Nguyễn Tuấn Anh",
+			"idNumber"		: 230944980,
+			"birthday"		: "11/04/1987",
+			"phone"			: "0984562134",
+			"feedback" 		: 200
+		},
+		{
+			"id" 			: 2,
+			"code"			: "KH0002",
+			"name"			: "Nguyễn Văn Toàn",
+			"idNumber"		: 230944980,
+			"birthday"		: "11/04/1988",
+			"phone"			: "0984562134",
+			"feedback" 		: 300
+		},
+		{
+			"id" 			: 3,
+			"code"			: "KH0003",
+			"name"			: "Nguyễn Công Phượng",
+			"idNumber"		: 230944980,
+			"birthday"		: "11/04/1995",
+			"phone"			: "0984562134",
+			"feedback" 		: 404
+		},
+		{
+			"id" 			: 4,
+			"code"			: "KH0004",
+			"name"			: "Trần Minh Vương",
+			"idNumber"		: 230944980,
+			"birthday"		: "11/04/1987",
+			"phone"			: "0984562134",
+			"feedback" 		: 500
+		},
+		{
+			"id" 			: 5,
+			"code"			: "KH0005",
+			"name"			: "Nguyễn Văn Toản",
+			"idNumber"		: 230944980,
+			"birthday"		: "11/04/1987",
+			"phone"			: "0984562134",
+			"feedback" 		: 900
+		}
+	],
+	"feedbacks" : [
+		{
+			"id" 	: 1,
+			"code" 	: 200,
+			"name" 	: "Có nhu cầu"
+		},
+		{
+			"id" 	: 2,
+			"code" 	: 404,
+			"name" 	: "Không có nhu cầu"
+		},
+		{
+			"id" 	: 3,
+			"code" 	: 300,
+			"name" 	: "Gọi lại sau"
+		},
+		{
+			"id" 	: 4,
+			"code" 	: 500,
+			"name" 	: "Thuê bao"
+		},
+		{
+			"id" 	: 5,
+			"code" 	: 900,
+			"name" 	: "không nghe máy"
+		}
+	],
+	"permissions" : [
+		{
+			"id" 	: 1,
+			"code"	: 1,
+			"name"	: "Administrator"
+		},
+		{
+			"id" 	: 2,
+			"code"	: 2,
+			"name"	: "User"
+		},
+		{
+			"id" 	: 3,
+			"code"	: 3,
+			"name"	: "Guest"
+		}
+	]
+}
